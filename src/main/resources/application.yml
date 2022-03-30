@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: timeline-api
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: health
